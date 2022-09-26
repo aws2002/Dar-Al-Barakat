@@ -1,10 +1,8 @@
-// @import url(//db.onlinewebfonts.com/c/08eec388d4d81d9fe321d156b9277280?family=Air+Strip+Arabic);
-// @import url(//db.onlinewebfonts.com/c/bbfd63000809130ff3e58394a48cb13f?family=Abdo+Master);
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Manrope&display=swap');
 :root {
   --main-color: #BA9743;
   --bg-color: #161615;
-  --font-1: Cairo
+  --font-1: 'Cairo', sans-serif
 }
 @font-face {
   font-family: "Air Strip Arabic";
@@ -13,7 +11,10 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
 .bg-primary {
   background-color: #ba9643ac !important;
 }
@@ -82,10 +83,7 @@
   direction: rtl !important;
 }
 
-body {
-  overflow-x: hidden;
-  background-color: var(--bg-color);
-}
+
 
 .text-primary {
   color: var(--main-color) !important;
@@ -377,7 +375,9 @@ a:hover {
     font-family: var(--font-1);
   }
 }
-
+.owl-theme .owl-controls {
+  margin-top: 0 !important;
+}
 @media screen and (min-width:1024px) {}
 
 @media screen and (min-width:768px) and (max-width:1023px) {}
@@ -425,8 +425,9 @@ a:hover {
       font-size: 17px;
     }
   }
+  .owl-next,
+  .owl-prev{
+    display: none;
+  }
 }
 
-.owl-theme .owl-controls {
-  margin-top: 0 !important;
-}
