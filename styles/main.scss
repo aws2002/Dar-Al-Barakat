@@ -1,12 +1,15 @@
-@import url(//db.onlinewebfonts.com/c/08eec388d4d81d9fe321d156b9277280?family=Air+Strip+Arabic);
-@import url(//db.onlinewebfonts.com/c/bbfd63000809130ff3e58394a48cb13f?family=Abdo+Master);
+// @import url(//db.onlinewebfonts.com/c/08eec388d4d81d9fe321d156b9277280?family=Air+Strip+Arabic);
+// @import url(//db.onlinewebfonts.com/c/bbfd63000809130ff3e58394a48cb13f?family=Abdo+Master);
 
 :root {
   --main-color: #BA9743;
   --bg-color: #161615;
   --font-1: Cairo
 }
-
+@font-face {
+  font-family: "Air Strip Arabic";
+  src: url(../css/fonts/Air\ Strip\ Arabic.ttf);
+}
 * {
   box-sizing: border-box;
 }

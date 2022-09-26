@@ -7,6 +7,11 @@
 ;
 }
 
+@font-face {
+  font-family: "Air Strip Arabic";
+  src: url(../css/);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
