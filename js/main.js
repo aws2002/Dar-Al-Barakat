@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
   $(".owl-carousel-2").owlCarousel({
     items: 1,
-    navigation: true,
+    // navigation: true,
     autoPlay: 3500,
     navText: ["Prev", "Next"],
     navigationText: [

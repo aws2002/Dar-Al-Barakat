@@ -120,20 +120,15 @@ body {
 
 .active-icon-socal {
   cursor: pointer;
-
   &:hover {
-
     .icon{
       display: inline-block;
     }
   }
-
   .icon {
     display: none ;
   }
 }
-
-
 
 .dropdown-menu-dark {
   font-family: var(--font-1);
