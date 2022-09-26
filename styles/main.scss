@@ -123,15 +123,13 @@ body {
 
   &:hover {
 
-    .fa-phone-alt,
-    .fa-facebook-messenger {
+    .icon{
       display: inline-block;
     }
   }
 
-  .fa-phone-alt,
-  .fa-facebook-messenger {
-    display: none;
+  .icon {
+    display: none ;
   }
 }
 

@@ -117,13 +117,11 @@ body {
   cursor: pointer;
 }
 
-.active-icon-socal:hover .fa-phone-alt,
-.active-icon-socal:hover .fa-facebook-messenger {
+.active-icon-socal:hover .icon {
   display: inline-block;
 }
 
-.active-icon-socal .fa-phone-alt,
-.active-icon-socal .fa-facebook-messenger {
+.active-icon-socal .icon {
   display: none;
 }
 
