@@ -1,5 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/08eec388d4d81d9fe321d156b9277280?family=Air+Strip+Arabic);
-@import url(//db.onlinewebfonts.com/c/bbfd63000809130ff3e58394a48cb13f?family=Abdo+Master);
 :root {
   --main-color: #BA9743;
   --bg-color: #161615;
@@ -9,7 +7,7 @@
 
 @font-face {
   font-family: "Air Strip Arabic";
-  src: url(../css/);
+  src: url("../css/fonts/Air Strip Arabic.ttf");
 }
 
 * {
@@ -31,7 +29,7 @@
 }
 
 .text-hero h1 {
-  font-family: "Air Strip Arabic";
+  font-family: "Air Strip Arabic",sans-serif;
   font-size: 56px;
 }
 
