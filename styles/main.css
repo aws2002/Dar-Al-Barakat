@@ -249,8 +249,8 @@ footer ul li {
   background-color: #43d954;
   position: fixed;
   z-index: 1000;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,6 +397,9 @@ a:hover {
   .owl-next,
   .owl-prev {
     display: none !important;
+  }
+  .video .owl-pagination {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
