@@ -44,6 +44,15 @@ body {
   font-size: 18px;
 }
 
+.owl-theme .owl-controls .owl-page.active span {
+  width: 40px;
+}
+
+.owl-pagination .owl-page.active > span {
+  background: var(--main-color);
+  border-color: var(--main-color);
+}
+
 .hero {
   background-image: url("../images/img8.png");
   background-position: center top;
