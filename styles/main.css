@@ -396,7 +396,7 @@ a:hover {
   }
   .owl-next,
   .owl-prev {
-    display: none;
+    display: none !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
