@@ -548,5 +548,9 @@ a:hover {
   .video .owl-pagination {
     display: none;
   }
+  .bg-subscribe p {
+    font-family: var(--font-1);
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
