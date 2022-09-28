@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Manrope&display=swap');
+
 :root {
   --main-color: #BA9743;
   --bg-color: #161615;
   --font-1: 'Cairo', sans-serif
 }
+
 @font-face {
   font-family: "Air Strip Arabic";
   src: url("../css/fonts/Air\ Strip\ Arabic.ttf");
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   overflow-x: hidden;
   background-color: var(--bg-color);
 }
+
 .bg-primary {
   background-color: #ba9643ac !important;
 }
@@ -28,7 +33,7 @@ body {
   padding-right: 15px;
 
   h1 {
-    font-family: "Air Strip Arabic",sans-serif;
+    font-family: "Air Strip Arabic", sans-serif;
     font-size: 56px;
 
   }
@@ -40,16 +45,58 @@ body {
 
 }
 
+.text-hero-2 {
+  border-right: 5px solid var(--main-color);
+  padding-right: 15px;
+
+  h1 {
+    font-family: "Air Strip Arabic", sans-serif;
+    font-size: 60px;
+
+  }
+
+  p {
+    font-family: var(--font-1);
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+}
+
 .owl-theme .owl-controls .owl-page.active span {
   width: 40px;
- 
+
 }
+
 .owl-pagination .owl-page.active>span {
   background: var(--main-color);
   border-color: var(--main-color);
 }
+
 .hero {
   background-image: url('../images/img8.png');
+  background-position: center top;
+  // background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+.hero-2 {
+  background-image: url('../images/img14.jpeg');
+  background-position: center top;
+  // background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+.hero-3 {
+  background-image: url('../images/img15.png');
   background-position: center top;
   // background-attachment:fixed;
   background-repeat: no-repeat;
@@ -82,6 +129,32 @@ body {
   height: 100%;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.546);
+  opacity: 0.8;
+  font-family: "Abdo Master";
+}
+
+.hero-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.651);
+  opacity: 0.8;
+  font-family: "Abdo Master";
+}
+
+.hero-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.651);
   opacity: 0.8;
   font-family: "Abdo Master";
 }
@@ -127,13 +200,15 @@ body {
 
 .active-icon-socal {
   cursor: pointer;
+
   &:hover {
-    .icon{
+    .icon {
       display: inline-block;
     }
   }
+
   .icon {
-    display: none ;
+    display: none;
   }
 }
 
@@ -263,8 +338,8 @@ footer ul li {
   background-color: #43d954;
   position: fixed;
   z-index: 1000;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   bottom: 25px;
@@ -375,8 +450,77 @@ a:hover {
     font-family: var(--font-1);
   }
 }
+
 .owl-theme .owl-controls {
   margin-top: 0 !important;
+}
+
+
+
+
+
+
+.img-thumbnail {
+  width: 100% !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -230px;
+}
+
+
+
+.form-aqar {
+
+  h3 {
+    font-family: var(--font-1);
+    font-weight: 500;
+    font-size: 23px;
+  }
+
+  .form-aqar-input {
+    background-color: rgba(0, 0, 0, 0.61);
+  }
+
+  .btn-aqar {
+    color: #fff;
+    border: 1px solid var(--main-color);
+    font-family: var(--font-1);
+  }
+
+}
+
+.apartments {
+  font-family: var(--font-1);
+
+  h4 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .hover-box {
+    cursor: pointer;
+
+    &:hover h4 {
+      transition: all 0.3s ease-in-out;
+      color: var(--main-color) !important;
+    }
+  }
+
+  li,
+  span {
+    font-size: 20px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 5px 0;
+  }
+}
+.img-thumbnail{
+  width: 100%;
+  height: 100%;
 }
 @media screen and (min-width:1024px) {}
 
@@ -425,12 +569,13 @@ a:hover {
       font-size: 17px;
     }
   }
+
   .owl-next,
-  .owl-prev{
+  .owl-prev {
     display: none !important;
   }
-  .video .owl-pagination{
+
+  .video .owl-pagination {
     display: none;
   }
 }
-
