@@ -520,7 +520,10 @@ a:hover {
     padding: 10px 25px;
   }
   .title-section h2 {
-    font-size: 45px;
+    font-size: 38px;
+  }
+  .title-section p {
+    margin-top: 18px;
   }
   .itme-card-news img {
     width: 100%;
