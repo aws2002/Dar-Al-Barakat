@@ -267,11 +267,20 @@ footer ul li {
   border-radius: 5px;
 }
 
+.hover-btn:hover .show-btn {
+  display: block;
+}
+
+.hover-btn .show-btn {
+  display: none;
+}
+
 .itme-card-news {
   cursor: pointer;
   overflow: hidden;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  position: relative;
 }
 
 .itme-card-news:hover .text-box-img {
@@ -311,6 +320,20 @@ footer ul li {
 }
 
 .btn-primary:hover {
+  border-color: #000;
+}
+
+.btn-primary-2 {
+  background-color: var(--main-color) !important;
+  border-color: #000;
+  border-radius: 8px;
+  padding: 6px 20px;
+  font-family: var(--font-1);
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn-primary-2:hover {
   border-color: #000;
 }
 
