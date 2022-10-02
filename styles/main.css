@@ -576,4 +576,10 @@ a:hover {
     font-size: 30px;
   }
 }
+
+.copyright p {
+  color: #fff;
+  font-family: var(--font-1);
+  letter-spacing: 3px;
+}
 /*# sourceMappingURL=main.css.map */
