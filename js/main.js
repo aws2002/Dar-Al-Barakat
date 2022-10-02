@@ -21,3 +21,10 @@ $(document).ready(function () {
     margin: 20,
   });
 });
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 45) {
+      $('.navbar').addClass('fixed-top');
+  } else {
+      $('.navbar').removeClass('fixed-top');
+  }
+});

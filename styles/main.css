@@ -582,4 +582,20 @@ a:hover {
   font-family: var(--font-1);
   letter-spacing: 3px;
 }
+
+.text-footer {
+  font-family: var(--font-1);
+}
+
+.text-footer ul {
+  list-style: disc;
+}
+
+.border-primary {
+  border-color: var(--main-color) !important;
+}
+
+.navbar.fixed-top img {
+  width: 30%;
+}
 /*# sourceMappingURL=main.css.map */

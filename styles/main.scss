@@ -656,3 +656,17 @@ a:hover {
     letter-spacing: 3px;
   }
 }
+.text-footer{
+  font-family: var(--font-1);
+  ul{
+    list-style:disc;
+  }
+}
+.border-primary{
+  border-color: var(--main-color) !important;
+}
+.navbar.fixed-top{
+  img{
+    width: 30%;
+  }
+}
